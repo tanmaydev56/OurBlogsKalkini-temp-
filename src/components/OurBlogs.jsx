@@ -14,8 +14,8 @@ const OurBlogs = () => {
             <motion.div
               whileHover={{ scale: 1.05 }}
             //   spring wali animation
-            //   whileTap={{ scale: 0.95 }}
-            //   transition={{ type: "spring", stiffness: 400, damping: 17 }}
+              whileTap={{ scale: 0.95 }}
+              transition={{ type: "spring", stiffness: 400, damping: 17 }}
               
               className='w-[1325px] h-[439px] bg-[#F2F2F2] rounded-[70px]' > 
                 {/* first div */}
